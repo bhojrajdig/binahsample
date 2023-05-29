@@ -3,8 +3,8 @@
   "version": "4.12.1-8",
   "homepage": "https://bhojrajdig.github.io/binahsample/",
   "scripts": {
-    "predeploy" : "npm run build",
-   "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "cross-env NODE_ENV=development webpack serve",
     "build": "cross-env NODE_ENV=production webpack --progress"
   },
