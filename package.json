@@ -6,7 +6,7 @@
     "predeploy" : "npm run build",
    "deploy" : "gh-pages -d build",
    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "cross-env NODE_ENV=production webpack --progress"
   },
   "dependencies": {
     "@binah/web-sdk": "./binah-web-sdk-v4.12.1-8.tgz",
