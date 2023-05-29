@@ -16,9 +16,9 @@ function common() {
     devtool: 'cheap-module-source-map',
     devServer: {
       hot: true,
-      port: 8000,
+      //port: 8000,
       https: true,
-      host: '0.0.0.0',
+     // host: '0.0.0.0',
       //useLocalIp: true,
       headers: {
         'Cross-Origin-Opener-Policy': 'same-origin',
