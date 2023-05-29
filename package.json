@@ -1,10 +1,12 @@
 {
   "name": "@binah/sample-app",
   "version": "4.12.1-8",
-  "homepage": "https://binahsample.web.app",
+  "homepage": "https://bhojrajdig.github.io/binahsample/",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack serve",
-    "build": "cross-env NODE_ENV=production webpack --progress"
+    "predeploy" : "npm run build",
+   "deploy" : "gh-pages -d build",
+   "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@binah/web-sdk": "./binah-web-sdk-v4.12.1-8.tgz",
